@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modelo", "Modelo", "{35C55932-7C63-4C14-B9D1-A41F18413153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenaiApp.Modulo.Windows", "Modulo\SenaiApp.Modulo.Windows\SenaiApp.Modulo.Windows.csproj", "{03D74981-6924-41A1-B10F-45A1281D82DC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D74981-6924-41A1-B10F-45A1281D82DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D74981-6924-41A1-B10F-45A1281D82DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D74981-6924-41A1-B10F-45A1281D82DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D74981-6924-41A1-B10F-45A1281D82DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03D74981-6924-41A1-B10F-45A1281D82DC} = {35C55932-7C63-4C14-B9D1-A41F18413153}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {267011BB-2CB7-4057-AD20-1057826F88FE}

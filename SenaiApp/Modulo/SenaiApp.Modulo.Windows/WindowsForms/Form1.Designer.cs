@@ -1,4 +1,4 @@
-﻿namespace SenaiApp.Modulo.Windows
+﻿namespace WindowsForms
 {
     partial class Form1
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SenaiApp.Modulo.Windows
+namespace WindowsForms
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace SenaiApp.Modulo.Windows
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new principal());
+            Application.Run(new Form1());
         }
     }
 }

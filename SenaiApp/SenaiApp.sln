@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulo", "Modulo", "{35C55932-7C63-4C14-B9D1-A41F18413153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenaiApp.Modulo.Windows", "Modulo\SenaiApp.Modulo.Windows\SenaiApp.Modulo.Windows.csproj", "{03D74981-6924-41A1-B10F-45A1281D82DC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "Modulo\SenaiApp.Modulo.Windows\WindowsForms\WindowsForms.csproj", "{AC803B35-A4E9-4443-B8BB-F22C0DA0B357}"
 EndProject
 Global
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{03D74981-6924-41A1-B10F-45A1281D82DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03D74981-6924-41A1-B10F-45A1281D82DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03D74981-6924-41A1-B10F-45A1281D82DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03D74981-6924-41A1-B10F-45A1281D82DC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC803B35-A4E9-4443-B8BB-F22C0DA0B357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC803B35-A4E9-4443-B8BB-F22C0DA0B357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC803B35-A4E9-4443-B8BB-F22C0DA0B357}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -28,7 +22,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{03D74981-6924-41A1-B10F-45A1281D82DC} = {35C55932-7C63-4C14-B9D1-A41F18413153}
 		{AC803B35-A4E9-4443-B8BB-F22C0DA0B357} = {35C55932-7C63-4C14-B9D1-A41F18413153}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
